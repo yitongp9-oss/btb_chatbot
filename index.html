@@ -51,7 +51,7 @@
 
   <!-- Coze Chat SDK installation code (from Coze Publish → Chat SDK). The PAT below
        is a scoped, expiring personal access token limited to this bot's chat permission. -->
-  <script src="https://sf-cdn.coze.com/obj/unpkg-va/flow-platform/chat-app-sdk/1.2.0-beta.6/libs/oversea/index.js"></script>
+  <script src="https://sf-cdn.coze.com/obj/unpkg-va/flow-platform/chat-app-sdk/1.2.0-beta.9/libs/oversea/index.js"></script>
   <script>
     new CozeWebSDK.WebChatClient({
       config: {
@@ -62,9 +62,9 @@
       },
       auth: {
         type: 'token',
-        token: 'pat_EpNlEAXJTajbkEWzsZ0ORke4FE2iLVIH3VNczle2on7yMnXRBRDHYdeLjoQBmFWh',
+        token: 'PAT_PLACEHOLDER',
         onRefreshToken: function () {
-          return 'pat_EpNlEAXJTajbkEWzsZ0ORke4FE2iLVIH3VNczle2on7yMnXRBRDHYdeLjoQBmFWh';
+          return 'PAT_PLACEHOLDER';
         }
       }
     });
